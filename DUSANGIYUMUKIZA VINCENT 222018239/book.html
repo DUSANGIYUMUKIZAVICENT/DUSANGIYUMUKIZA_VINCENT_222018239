@@ -1,0 +1,196 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="orange">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./book.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>ENTER_CLASSES_TOURNAMENT_MGTSYSTEM database and java programing</h1>
+	<ol><h2><u><li>DATABASE INFORMATION </li></u></h2>
+		<p>Database name : <b>WORK1.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>• Table adversaries</b>Adversaries entity and its attributes
+This is used to show adversary name and values like number of teams,name of team etc and also it shows inserted data in database
+
+</p></br>
+
+			<li><b>• Table matches</b></li>
+
+			<p>This entity shows match_id as unique number for every match ,date for match,place for match,referee for matchwith unique number and unique user id  with inserted data in database
+.</p> </br>
+
+
+			<li><b>• Table referees</b></li>
+
+			<p>Referees entity with its attributes
+This table shows information about referee id,last and first name,telephone,age and sex and inserted data in database
+
+.</p></br>
+
+			<li><b>• Table tblresult</b></li>
+
+			<p>Tblresult entity with attributes
+This entity shows information about inserting data INTO tblresult (id, StudentId, ClassId, SubjectId, marks, PostingDate, UpdationDate) VALUES
+
+.</p></br>
+
+            <li><b>•    Table tblstudents</b></li>
+
+			Tblstudents entity with attributes
+This table shows information on (StudentId, StudentName, RollId, StudentEmail, Gender, DOB, ClassId, RegDate, UpdationDate, Status) VALUES
+<p>.</p></br>
+
+			<li><b>• Table users</b></li></ol>
+
+			<p>users entity with their attributes and inserted data
+This table shows conditions and terms that allows people to use our database information.
+. </p></br>
+
+
+			              
+1<li><b>Attributes of  adversaries 
+:</br>
+
+</li></i></u></h3>
+			       <ol type="a"><li><b>• Columns: ad_id, name
+•   Data: RAYON SPORT, APR FC
+</b></li></br>
+    
+
+
+                    <li><b>attributes of  Table matches•    Structure: The "matches" table includes columns for "match_id," "date," "play_ground," "ref_id," "ad_id," and "user_id."
+•   Data: Two match entries are present, each with details like date, play ground, referee ID, adversary ID, and user ID
+1
+
+</b></li></br>
+
+   •    Columns: match_id, date, play_ground, ref_id, ad_id, user_id are the columns used in  Table matches:</br>
+
+
+
+
+                    <li><b>Attributes of   Table referees•  Structure: The "referees" table has columns for "ref_id," "f_name," "l_name," "age," "sex," and "telephone."
+•   Data: Entries for two referees are included, with details such as names, age, gender, and contact numbers
+ </b></li></br>
+
+                    •   Columns: ref_id, f_name, l_name, age, sex, telephone
+•   Data: Details of two referees including names, age, gender, and contact information
+:</br>
+
+
+
+
+
+
+                    <li><b>Attributes of tblresult• Structure: The "tblresult" table contains columns like "id," "StudentId," "ClassId," "SubjectId," "marks," "PostingDate," and "UpdationDate."
+•   Data: Two result entries are present with information on student IDs, class IDs, subject IDs, marks, posting dates, and updation dates
+1
+
+</b></li></br>
+
+                   •    Columns: id, StudentId, ClassId, SubjectId, marks, PostingDate, UpdationDate
+•   Data: Results with student IDs, class IDs, subject IDs, marks and dates
+ are the data/columns used intblresult :</br>
+
+
+
+
+                    <li><b>Attributes of •  Table users•    Structure: The "users" table consists of columns for user details such as ID, username, and password.
+•   Data: One user entry is present with the username 'manager' and a corresponding password
+1
+
+</b></li></br>
+
+                •   Columns: user_id, u_name, u_password
+•   Data: A user entry with username 'manager' and password '123'
+ are data/columns used inTable user :</br>
+
+
+
+
+
+
+                    <li><b>Attributes of •  Table tblstudents•  Structure: The "tblstudents" table includes columns for student details like ID, name, email, gender, date of birth, class ID, registration date, updation date, and status.
+•   Data: It holds information for two students named 'John Doe' and 'Jane Smith' with respective details
+1
+
+</b></li></ol></br>
+                
+                    
+
+    •   Columns: StudentId, StudentName, RollId, StudentEmail, Gender, DOB, ClassId, RegDate, UpdationDate, Status
+•   Data: Information about two students including names, emails, gender, DOB and registration details
+ are data and columns used in able tblstudents:</br>
+
+
+
+ 
+
+
+
+        </ul>
+		<h2><u><li>.WORK2: JAVA PROGRAMMING(ENTER_CLASSES_TOURNAMENT_MGTSYSTEM</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>The Java project "ENTER_CLASSES_TOURNAMENT_MGTSYSTEM" appears to be a tournament management system that involves entities such as adversaries, matches, referees, results, students, and users. Here is a brief overview of the tables and their respective columns and data:</b><br>
+ .</p><br>
+ 
+	
+
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<ol type="I"><li><b><h4>adversaries Form</h4></b></br>
+<img src="adversaries .png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>matches Form</h4></b></br>
+<img src="matches_id.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>referees Form</h4></b></br>
+<img src="referees.png" width=900 height=300><br><br><br><br><br></li>
+
+<li><b><h4>tblstudents</h4></b></br>
+<img src="tblstudents.png" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>tblresult</h4></b></br>
+<img src="tblresult.png" width=900 height=300><br><br><br><br><br>
+
+<li><b><h4>users Form</h4></b></br>
+<img src="users.png" width=900 height=300><br><br><br><br><br>
+</li></ol>
+
+</ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: PURPLE;">CREATED  By</i></u>: DUSANGIYUMUKIZA VINCENT222018239</h2></marquee>
+	</body>
+	</html>
